@@ -47,10 +47,6 @@ li a:hover:not(.active) {
   background-color: #c0481c;
 }
 
-/* .active {
-  background-color: #04AA6D;
-} */
-
 * {
   box-sizing: border-box;
 }
@@ -61,54 +57,6 @@ li a:hover:not(.active) {
   padding: 20px;
   text-align: center;
   margin: 50px;
-}
-
-
-.cta-button {
-background-color: #ff5722;
-color: white;
-border: none;
-padding: 15px 30px;
-font-size: 1em;
-border-radius: 25px;
-/* Rounded corners for the button */
-cursor: pointer;
-text-decoration: none;
-}
-
-.cta-button:hover {
-background-color: #e64a19;
-}
-
-.Scroll-To-Top{
-background-color: #ff5722;
-color: white;
-border: none;
-position: fixed;
-bottom: 70px;
-right: 20px;
-padding: 20px 8px;
-/* font-size: 1em; */
-/* border-radius: 25px; */
-width: 60px;              
-height: 60px;             
-border-radius: 50%;       
-cursor: pointer;
-cursor: pointer;
-text-decoration: none;
-text-align: center;
-}
-
-
-
-.footer {
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -173,3 +121,51 @@ h2 {
   color: #ded3d0;
   /* Orange color */
 }
+
+.cta-button {
+background-color: #ff5722;
+color: white;
+border: none;
+padding: 15px 30px;
+font-size: 1em;
+border-radius: 25px;
+/* Rounded corners for the button */
+cursor: pointer;
+text-decoration: none;
+}
+
+.cta-button:hover {
+background-color: #e64a19;
+}
+
+.Scroll-To-Top{
+background-color: #ff5722;
+color: white;
+border: none;
+position: fixed;
+bottom: 70px;
+right: 20px;
+padding: 20px 8px;
+/* font-size: 1em; */
+/* border-radius: 25px; */
+width: 60px;              
+height: 60px;             
+border-radius: 50%;       
+cursor: pointer;
+cursor: pointer;
+text-decoration: none;
+text-align: center;
+}
+
+
+
+.footer {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
