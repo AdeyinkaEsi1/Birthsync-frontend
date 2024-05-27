@@ -62,19 +62,19 @@ li a:hover:not(.active) {
 
 
 /* FORM STYLING BEGINS */
-.birthday-form {
+#birthday-form {
   display: block;
   flex-direction: column;
 }
 
-.birthday-form label {
+#birthday-form label {
   margin-top: 10px;
   color: #2196f3;
   /* Blue color */
 }
 
-.birthday-form input,
-.birthday-form textarea {
+#birthday-form input,
+#birthday-form textarea {
   padding: 10px;
   margin-top: 5px;
   border: 1px solid #ccc;
@@ -84,12 +84,12 @@ li a:hover:not(.active) {
   box-sizing: border-box;
 }
 
-.birthday-form textarea {
+#birthday-form textarea {
   resize: vertical;
   height: 100px;
 }
 
-.submit-button {
+#submit-button {
   background-color: #4caf50;
   color: white;
   border: none;
@@ -100,7 +100,8 @@ li a:hover:not(.active) {
   cursor: pointer;
 }
 
-.submit-button:hover {
+
+#submit-button:hover {
   background-color: #45a049;
 }
 
